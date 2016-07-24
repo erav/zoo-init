@@ -1,0 +1,96 @@
+{
+	"dc": {
+		"data": "some data"
+	},
+	"resources": {
+		"es": {
+			"master": {
+				"data": "${cluster1}"
+			},
+			"${cluster1}": {
+				"connection": {
+					"data": "dns1:9200"
+				},
+				"data": ""
+			},
+			"${cluster2}": {
+				"connection": {
+					"data": "dns2:9200"
+				},
+				"data": ""
+			},
+			"data": ""
+		},
+		"hbase": {
+			"master": {
+				"data": "${cluster3}"
+			},
+			"${cluster3}": {
+				"connection": {
+					"data": "dns3:9200"
+				},
+				"data": ""
+			},
+			"${cluster4}": {
+				"connection": {
+					"data": "dns4:9200"
+				},
+				"data": ""
+			},
+			"data": ""
+		},
+		"hdfs": {
+			"master": {
+				"data": "${cluster5}"
+			},
+			"${cluster5}": {
+				"connection": {
+					"data": ""
+				},
+				"data": ""
+			},
+			"${cluster6}": {
+				"connection": {
+					"data": "dns6"
+				},
+				"data": ""
+			},
+			"data": ""
+		},
+		"data": ""
+	},
+	"configuration": {
+		"site": {
+			"data": "site"
+		},
+		"typeMappings":{
+			"ds_": {
+				"data": "data"
+			},
+			"cm_": {
+				"data": "data"
+			},
+			"data": "data"
+		},
+		"data": ""
+	},
+	"discovery": {
+		"server": {
+			"data": ""
+		},
+		"data": ""
+	},
+	"cache": {
+		"data": "data"
+	},
+	"transactionLeader": {
+		"data": "data"
+	},
+	"replicationLeader": {
+		"data": "data"
+	},
+	"leader": {
+		"data": "data"
+	},
+	"data": ""
+}
