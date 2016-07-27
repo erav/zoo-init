@@ -6,3 +6,5 @@ For a given namespace, the following actions are supported:
 - populate a zookeeper instance with content from a JSON file.
 - dump a zookeeper instance's content tree to a JSON file.
 - delete a zookeeper instance's content.
+
+## Note: This tool should be used only for initialization of a zookeeper node and before the zookeeper cluster is online and serving requests from outside the cluster. 
