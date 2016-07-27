@@ -1,4 +1,4 @@
-# zoo-pop
+# zoo-init
 Initialize a zookeeper instance with data from a json file. full delete and dump also supported.
 
 A zookeeper's tree of nodes and their data is formattable to a JSON object which is in essence a tree as well. This possibility is used to automate the loading\unloading of data for zookeeper.
